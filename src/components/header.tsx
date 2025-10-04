@@ -2,8 +2,6 @@ import Link from 'next/link';
 import Image from "next/image";
 import React from 'react';
 import NavItems from './NavItems';
-import { DropdownMenu } from './ui/dropdown-menu';
-import { User } from 'lucide-react';
 import UserDropdown from './UserDropdown';
 
 const Header = (): React.JSX.Element => {
